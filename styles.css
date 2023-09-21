@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: #e5e5e5;
 }
 
 
@@ -401,12 +402,14 @@ body {
 #back-img {
     background-image: url(Images/oneplus-main-homepage.jpg);
     background-size: cover;
-    z-index: -1;
+    /* z-index: -1; */
 }
+
+.section-main-back {}
 
 
 .section-main-back {
-    margin-left: 40px;
+    margin-left: 10px;
     display: inline-flex;
     gap: 20px;
     align-items: center;
@@ -416,35 +419,112 @@ body {
 .box-1 {
 
     margin-top: 280px;
-    width: 340px;
+    width: 360px;
     height: 380px;
     background-color: white;
-    z-index: 10;
 }
 
 .box-2 {
 
     margin-top: 280px;
-    width: 340px;
+    width: 360px;
     height: 380px;
     background-color: white;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .box-3 {
 
     margin-top: 280px;
-    width: 340px;
+    width: 360px;
     height: 380px;
     background-color: white;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .box-4 {
 
     margin-top: 280px;
-    width: 340px;
+    width: 360px;
     height: 380px;
     background-color: white;
-    z-index: 10;
+    /* z-index: 10; */
+}
+
+/*  section main back -- v1.2*/
+
+
+#b1h {
+    /* margin-top: 20px; */
+    /* margin-left: 20px; */
+    position: relative;
+    width: auto;
+    height: 50px;
+    /* background-color: #131921; */
+    font-family: 'Amazon Ember', Arial, sans-serif;
+
+
+}
+
+#b1h-head {
+
+    position: absolute;
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+
+
+.b1h-main-box {
+    position: relative;
+    height: 330px;
+    width: auto;
+
+    /* background-color: #f3a847; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.b1h-box {
+    width: 175px;
+    height: 150px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.b1h-box-text {
+    /* margin-top: 35px; */
+    display: inline-flex;
+    width: 160px;
+    height: 39px;
+    color: black;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    /* background-color: #131921; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.b1h-box-img {
+    width: 160px;
+    height: 100px;
+}
+
+.b2-box-text {
+    font-weight: 500;
+    font-size: 17px;
 }
